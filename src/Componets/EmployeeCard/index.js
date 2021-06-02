@@ -1,31 +1,18 @@
 import React from "react";
 import "./style.css";
 
-function EmployeeCard(props) {
-  
+function Card(props) {
     return (
+
         <div className="card">
-            <div className="img-container">
-                <img alt={props.name} src={props.image} />
-            </div>
-            <div className="content">
-                <ul>
-                <li>
-                  <strong>Name:</strong> {props.name} 
-                </li> 
-                <li>
-                  <strong>Position:</strong> {props.position}
-                </li>
-                <li>
-                  <strong>Date of Birth:</strong> {props.birth}
-                </li>
-                <li>
-                  <strong>Country:</strong> {props.country}
-                </li>
-                </ul>
-            </div>
+            <div><img alt={props.last} src={props.image}></img></div>
+            <div>{props.title} {props.first} {props.last} </div>
+            <div>{props.gender}</div>
+            <div>{props.age}</div>
+            <div>{props.phone}</div>
+            <div>{props.email}</div>
         </div>
-    )
+    );
 }
 
 export default EmployeeCard;
