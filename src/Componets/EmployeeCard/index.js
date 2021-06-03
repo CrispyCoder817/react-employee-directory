@@ -1,7 +1,6 @@
 import React from "react";
-import "./style.css";
 
-function Card(props) {
+function EmployeeCard(props) {
     return (
 
         <div className="card">

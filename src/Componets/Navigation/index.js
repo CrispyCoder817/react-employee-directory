@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import ListHeader from '../Search';
 
 class Navigation extends React.Component {

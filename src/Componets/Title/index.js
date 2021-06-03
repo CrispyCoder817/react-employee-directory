@@ -1,6 +1,5 @@
 import React from "react";
-import { Jumbotron } from "reactstrap";
-import "./style.css";
+import Jumbotron from "react-bootstrap/Jumbotron"
 
 function Title() {
     return (
